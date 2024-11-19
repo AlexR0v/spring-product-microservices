@@ -15,5 +15,6 @@ public class ProductDtoRequest {
 
     private String name;
     private String description;
+    private String scuCode;
     private BigDecimal price;
 }

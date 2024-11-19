@@ -25,6 +25,9 @@ public class Product {
     @Column(name = "description")
     private String description;
 
+    @Column(name = "scu_code", unique = true)
+    private String scuCode;
+
     @Column(name = "price")
     private BigDecimal price;
 
