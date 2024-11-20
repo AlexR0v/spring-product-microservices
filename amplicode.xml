@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AmplicodePersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="api-gateway" name="Default">
+        <packages>
+          <package value="ru.alexrov.gateway" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="inventory-service" name="Default">
+        <packages>
+          <package value="ru.alexrov.inventory" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="order-service" name="Default">
+        <packages>
+          <package value="ru.alexrov.order" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="product-service" name="Default">
+        <packages>
+          <package value="ru.alexrov.product" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
